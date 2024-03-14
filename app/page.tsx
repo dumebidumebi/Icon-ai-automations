@@ -23,7 +23,7 @@ export default function Home() {
     const chatWidgetScript = document.createElement("script");
     chatWidgetScript.type = 'text/javascript';
     chatWidgetScript.src = "https://storage.googleapis.com/chatwidgetcdn/dist/assets/js/index.js";
-    window?.chatWidgetScriptLoaded = true;
+    window.chatWidgetScriptLoaded = true;
     const chatWidgetContainer = document.getElementById("chatwidget-container");
     chatWidgetContainer?.appendChild(chatWidgetScript);
   
@@ -55,9 +55,7 @@ export default function Home() {
         <p className='text-center max-w-2xl text-l mt-5 mb-10 mx-5'>
           We combine artificial intelligence with automation to create incredibly efficient processes that connect your apps and automate actions between them, which replaces manual work for massive gains in your team’s bandwidth, quality, speed and customer experience. Fully custom and done-for-you.
         </p>
-     
         <ReactPlayer url='https://www.youtube.com/watch?v=LXb3EKWsInQ' />     
-    
       </div>
 
       {/* Features section */}
