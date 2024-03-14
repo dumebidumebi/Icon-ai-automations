@@ -23,9 +23,6 @@ export default function RootLayout({
     <ClerkProvider>
       {/* <Header/> */}
     <html lang="en">
-    <Head><Script src="http://localhost:3000"></Script>
-    
-    </Head>
       <body className={inter.className}>{children}
 
       </body>

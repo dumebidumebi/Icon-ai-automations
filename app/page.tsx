@@ -56,8 +56,9 @@ export default function Home() {
         <p className='text-center max-w-2xl text-l mt-5 mb-10 mx-5'>
           We combine artificial intelligence with automation to create incredibly efficient processes that connect your apps and automate actions between them, which replaces manual work for massive gains in your team’s bandwidth, quality, speed and customer experience. Fully custom and done-for-you.
         </p>
-
-        <ReactPlayer url='https://www.youtube.com/watch?v=LXb3EKWsInQ' />      
+     
+        <ReactPlayer url='https://www.youtube.com/watch?v=LXb3EKWsInQ' />     
+    
       </div>
 
       {/* Features section */}
@@ -192,14 +193,14 @@ export default function Home() {
           <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
           <span className='text-xl font-semibold text-blue-600'>Sarah M.</span>
           <span className='mb-2'>Director, Finance</span>
-          <span className='mt-2 text-zinc-700'>"Our company was struggling to keep up with the demands of our growing business until we found this automation agency. They helped us streamline our workflow and cut down our workload significantly. We are now able to focus on what matters most to our business, and it has resulted in a noticeable increase in productivity."</span>
+          <span className='mt-2 text-zinc-700'>{`"Our company was struggling to keep up with the demands of our growing business until we found this automation agency. They helped us streamline our workflow and cut down our workload significantly. We are now able to focus on what matters most to our business, and it has resulted in a noticeable increase in productivity."`}</span>
            </div>
         </li>
         <li className='md:flex-1 mx-2'>  
         <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
-          <span className='text-xl font-semibold text-blue-600'>John D.</span>
+          <span className='text-xl font-semibold text-blue-600'>{`John D.`}</span>
           <span className='mb-2'>CEO</span>
-          <span className='mt-2 text-zinc-700'>"Our company was struggling to keep up with the demands of our growing business until we found this automation agency. They helped us streamline our workflow and cut down our workload significantly. We are now able to focus on what matters most to our business, and it has resulted in a noticeable increase in productivity."</span>
+          <span className='mt-2 text-zinc-700'>{`"Our company was struggling to keep up with the demands of our growing business until we found this automation agency. They helped us streamline our workflow and cut down our workload significantly. We are now able to focus on what matters most to our business, and it has resulted in a noticeable increase in productivity."`}</span>
            </div>
         </li>
       </ol>
