@@ -23,10 +23,9 @@ export default function Home() {
     const chatWidgetScript = document.createElement("script");
     chatWidgetScript.type = 'text/javascript';
     chatWidgetScript.src = "https://storage.googleapis.com/chatwidgetcdn/dist/assets/js/index.js";
-    window.chatWidgetScriptLoaded = true;
+    window?.chatWidgetScriptLoaded = true;
     const chatWidgetContainer = document.getElementById("chatwidget-container");
-    chatWidgetContainer.appendChild(chatWidgetScript);
-    chatWidgetScript.style.font = "20px inter serif";
+    chatWidgetContainer?.appendChild(chatWidgetScript);
   
   }, []);
 
